@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { generateTextController} from "../controller/textGenerate"; // Adjust the path as necessary
+import { generateTextController} from "../controller/textGenerate"; 
 
 const router = Router();
 
