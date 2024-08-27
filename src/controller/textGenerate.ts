@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import {generateTextWithMini}  from "../utils/openaifile"; // Adjust the path as necessary
+import {generateTextWithMini}  from "../utils/openaifile"; 
 
 export const generateTextController = async (req: Request, res: Response): Promise<void> => {
     const { prompt } = req.body;
